@@ -1,0 +1,369 @@
+html {
+  color: #9e9e9e;
+  text-align: center;
+  font-weight: 200;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*LINKS*/
+a {
+  text-decoration: none;
+  color: #4ab29b;
+}
+
+a:hover {
+  color: #045b3a;
+}
+
+ /*NAVIGATION BAR*/
+nav {
+  display: block;
+  background-color: #ddffbc;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.headerdiv img{
+  padding: 10px 0;
+  float: left;
+  height: 60px;
+}
+
+.headerdiv ul {
+  float: right;
+  margin-top: 30px;
+  display: block;
+}
+
+.headerdiv ul a {
+  padding: 20px;
+  font-weight: bold;
+}
+
+/*INTRO*/
+.intro {
+  display: block;
+  position: relative;
+  top: 100px;
+}
+
+.intro p {
+  margin: 0 auto;
+  width: 500px;
+  height: 100px;
+}
+
+.intro hr {
+  margin-bottom: 65px;
+}
+
+.intro h3 {
+  color: #4ab29b;
+}
+
+.intro img {
+  margin: 70px auto 0;
+  width: 160px;
+}
+
+/*HIRIZONTAL LINE*/
+hr {
+  display: block;
+  width: 6%;
+  border-style: none;
+  border-width: 8px;
+  border-top-style: dotted;
+  border-color: rgba(211,211,211,0.5);
+}
+
+ /*HEADING*/
+ .education h1,
+ .language-skill h1,
+ .skills h1 {
+   display: block;
+   padding: 15px;
+   margin-top: 25px;
+   color: #4ab29b;
+   border-bottom: solid 1px #ddffbc;
+   width: 500px;
+   margin: 0 auto
+ }
+
+/*TOP-CONTAINER*/
+.top-container {
+  background-color: #ddffbc;
+  position: relative;
+  width: 100%;
+  top: 79px;
+  height: 616px;
+  }
+
+.firstcloud {
+  width: 100px;
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.secondcloud {
+  width: 100px;
+  position: absolute;
+  left: 200px;
+  top: 150px;
+}
+
+ .body-title {
+   color: #4ab29b;
+   font-family: 'Parisienne', cursive;
+   line-height: 80px;
+   margin-top: -1px;
+   position: relative;
+   top: 100px;
+   font-size: 55px;
+ }
+
+.top-container h5 {
+  color: #4ab29b;
+   position: relative;
+   margin-top: 135px;
+ }
+
+.land {
+  bottom: -53px;
+  position: relative;
+}
+
+/*EDUCATION*/
+.education {
+  position: relative;
+  height: 315px;
+  top: 80px;;
+}
+
+.education table {
+  margin: 0 auto;
+  margin-top: 2px;
+  margin-bottom: 15px;
+  padding: 25px 0 20px 0;
+}
+
+.education table td {
+  padding: 15px;
+  letter-spacing: 1px;
+}
+
+.education table td:nth-child(2) {
+  font-style: italic;
+  color: #798777;
+}
+
+/*LANGUAGE SKILL*/
+.language-skill {
+  position: relative;
+  top: 130px;
+  height: 640px;
+}
+
+.language-skill h4 {
+  margin-top: 40px;
+}
+
+.language-skill p {
+  margin-top: 30px;
+}
+
+.language-skill table {
+  table-layout: fixed;
+  width: 100%;
+  margin-bottom: 35px;
+  border-collapse: collapse;
+}
+
+.language-skill table td {
+  letter-spacing: 1px;
+  padding: 30px;
+}
+
+.language-skill table td:nth-child(n) {
+  font-style: italic;
+  color: #798777;
+}
+
+.language-skill table th {
+  letter-spacing: 1px;
+  border-right: solid 1px #798777;
+  font-weight: 200;
+}
+
+/*SKILL Section*/
+.skills {
+  margin-top: 170px;
+}
+
+.skills h1 {
+  margin-bottom: 0;
+}
+
+.skill-row1 {
+  margin: 25px 0 25px 0;
+}
+
+.profile {
+  margin-top: 20px;
+}
+
+.profile table td h3,
+.skill-row1 table td h3,
+.skill-row2 table td h3 {
+  text-align: left;
+  color: #4ab29b;
+}
+
+.profile table,
+.skill-row1 table,
+.skill-row2 table {
+  table-layout: fixed;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.profile table td,
+.skill-row1 table td,
+.skill-row2 table td {
+  padding: 30px;
+}
+
+.profile table td p,
+.skill-row1 table td p,
+.skill-row2 table td p {
+  text-align: justify;
+}
+
+.skill-img,
+.desktop,
+.nodejs {
+  width: 40%;
+}
+
+.profile table td:nth-child(1),
+.skill-row1 table td:nth-child(3),
+.skill-row2 table td:nth-child(1) {
+  width: 30%;
+  padding: 20px;
+}
+
+.profile table td:nth-child(2),
+.skill-row1 table td:nth-child(2),
+.skill-row2 table td:nth-child(2) {
+  width: 10%;
+}
+
+.message-img,
+.message-img1,
+.message-img2 {
+  width: 40px;
+}
+
+.profile table td:nth-child(3),
+.skill-row2 table td:nth-child(3) {
+  padding-left: 80px;
+}
+
+.skill-row1 table td:nth-child(1), {
+  padding-right: 80px;
+}
+
+/*CONTACT ME*/
+.contact-me {
+  margin-top: 50px;
+}
+
+.contact-me p {
+ margin-top: 2px;
+}
+
+.contact-back {
+  background-color: #ddffbc;
+  width: 420px;
+  height: 165px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.contact-back h2 {
+ padding: 28px;
+ margin-bottom: 10px;
+ color: #4ab29b;
+}
+
+.contact-back h3 {
+ margin: 0;
+ color: #4ab29b;
+}
+
+/*FOOTER*/
+.bottom-container {
+  background-color: #ddffbc;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.bottom-container {
+  padding: 40px 0 20px;
+}
+
+.footer-link {
+ padding: 30px;
+}
+
+.bottom-container p {
+ margin-top: 15px;
+}
+
+.copyright {
+  color: #4ab29b;
+  padding: 20px;
+  font-size: 0.75rem;
+}
+/*myButton*/
+.myButton {
+	box-shadow:inset -4px 2px 0px 0px #4ab29b;
+	background:linear-gradient(to bottom, #4ab29b 5%, #4ab29b 100%);
+	background-color:#4ab29b;
+	border-radius:3px;
+	display:inline-block;
+	cursor:pointer;
+	color:#045b3a;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	font-style:italic;
+	padding:10px 24px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #4ab29b;
+	&:hover {
+	background:linear-gradient(to bottom, #4ab29b 5%, #4ab29b 100%);
+	background-color:#4ab29b;
+}
+ &:active {
+	position:relative;
+	top:1px;
+}
+ }
